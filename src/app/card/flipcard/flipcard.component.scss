@@ -1,0 +1,33 @@
+.linear{
+    background: repeating-linear-gradient(#fff,#fff 3px,#efefef 0px ,#efefef 9px);
+}
+
+
+.caHover:hover{
+    transform: rotateY(180deg);
+    
+}
+
+
+// .trans{
+//     transform-style: preserve-3d;
+    
+// }
+
+
+.section{
+    perspective: 1000px;
+}
+
+.containers{
+    transform-style: preserve-3d;
+    transition: 0.6s;
+
+    &:hover{
+        transform: rotateY(180deg) !important;
+    }
+}
+
+.back-face{
+   transform: rotateY(180deg) !important;
+}
